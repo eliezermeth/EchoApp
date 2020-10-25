@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EchoApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="request_text">Please type in text here</string>
+    <string name="copy_text">Eliezer M.\'s attempt at Echo App HW</string>
+    <string name="input_hint">Sample text</string>
+    <string name="button_text">Copy</string>
+    <string name="copy_button_description">Copy button</string>
+</resources>

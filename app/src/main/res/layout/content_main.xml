@@ -13,12 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/request_text"
+        android:layout_marginHorizontal="@dimen/side_margin"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
     <EditText
         android:id="@+id/input_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/side_margin"
         android:ems="10"
         android:hint="@string/input_hint"
         android:inputType="textPersonName"
@@ -28,6 +30,7 @@
         android:id="@+id/output_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/side_margin"
         android:text="@string/copy_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 </LinearLayout>

@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/request_text"
+        android:textColor="@color/colorAccent"
         android:layout_marginHorizontal="@dimen/side_margin"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/side_margin"
+        android:textColor="@color/black"
         android:ems="10"
         android:hint="@string/input_hint"
         android:inputType="textPersonName"
@@ -30,6 +32,9 @@
         android:id="@+id/output_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@drawable/textview_border"
+        android:gravity="center"
         android:layout_marginHorizontal="@dimen/side_margin"
         android:text="@string/copy_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
